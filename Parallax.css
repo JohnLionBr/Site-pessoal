@@ -1,0 +1,174 @@
+.body{
+    margin: 0;
+    background: rgb(20, 20, 20);
+    font-family: sans-serif;
+}
+
+
+.header {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(45deg,rgb(20, 20, 20), rgb(20, 20, 20), rgb(0, 0, 0));
+    height: 60px;
+
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    margin-left: 30px;
+    padding: 2px;
+    box-shadow: white 0 0 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: 0.3s;
+    
+    
+
+
+}
+
+.logo:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.nome{
+    color: rgb(105, 236, 100);
+    
+    margin-right: 600px;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 100;
+    border-radius: 5%;
+    transition: 0.3s;
+   
+    
+}
+
+.nome:hover{
+    text-shadow: white 0 0 10px;
+    text-shadow: rgb(105, 236, 100) 0 0 20px;
+    cursor: default;
+
+}
+
+.menu ul {
+    list-style: none;
+    padding-right: 90px;
+}
+
+.menu li{
+    display: inline;
+    margin: 20px;   
+    padding: 2px; 
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+  
+
+    
+}
+
+.menu li:hover{
+    cursor: pointer;
+    text-shadow: white 0 0 10px;
+
+}
+
+.main-section {
+   
+    display: flex;
+    align-items: center;
+    
+    height: 530px;
+}
+
+.business{
+    padding-right: 20px;
+    display: inline-block;
+}
+
+.business i{
+    
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    transition: 0.3s;
+    
+}
+
+.business i:hover{
+    color: rgb(105, 236, 100);
+    cursor: pointer;
+    
+
+}
+
+.redes{
+  
+    margin-left: 270px;
+}
+
+.descricao{
+    
+    margin-right: 80px;
+    width: 700px;
+}
+
+.main-section h1{
+    color: rgb(0, 0, 0);
+    
+    display: inline-block;
+    background: rgb(105, 236, 100);
+    padding: 3px;
+    border-radius: 3%;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.main-section h2{
+    width: 700px;
+    height: 150px;
+    
+    margin-left: auto;
+    margin-right: 300px;
+    font-size: 27px;
+    color: white;
+    display: inline-flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    align-items: center;
+}
+
+.main-section h3{
+    color: rgb(4, 163, 4);
+   
+    margin-top: 0;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.img-eu{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-right: auto;
+    padding: 3px;
+    background-color: gold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+.img-eu:hover{
+    transform: scale(1.4);
+    box-shadow: rgb(243, 221, 98) 0 0 10px;
+}
+
