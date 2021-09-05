@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="resume.css">
+    <title>Parallax</title>
+    <link rel="shortcut icon" href="portifolio/favicon.ico" type="image/x-icon">
+</head>
+<body class="body">
+    <header class="header">
+        <a href="easteregg.html" target="_self" rel="next"><img class="logo" src="images/oie_5222618QxWjVeCC.png" alt="logo"></a>
+       <h1 class="nome">João Souza Leão</h1>
+        <nav class="menu">
+            <ul>
+                <a href="index.html" target="_self" rel="next" style="text-decoration: none"><li>Home</li></a>
+                <a href="learning.html" target="_self" rel="next" style="text-decoration: none"><li>Learning</li></a>
+                <a href="resume.html" target="_self" rel="next" style="text-decoration: none"><li>Resume</li></a>
+            </ul>
+        </nav>
+
+    </header>
+
+    <h1>Sistema de multas</h1>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function calcular() {
+            var txtv = window.document.querySelector('input#txtvel')
+            var res = window.document.querySelector('div#res')
+            var vel = Number(txtv.value)
+            res.innerHTML = 'Sua velocidade é de ' + vel
+            if (vel > 60) {
+                res.innerHTML += '<p>Você está multado!</p>'
+            }
+            res.innerHTML += '<p>Dirija sempre com cuidado'
+        }
+    </script>
+
+    <div id="area" >
+        Interaja</div>
+
+        <script>
+            var a = window.document.getElementById('area')
+            a.addEventListener('click', clicar)
+            a.addEventListener('mouseenter', entrar)
+            a.addEventListener('mouseout', sair)
+
+                function clicar() {
+                    a.innerText = 'Clicou!'
+                    a.style.background = 'red'
+                }
+                function entrar() {
+                    a.innerText = 'Entrou!'
+                }
+                function sair() {
+                    a.innerText = 'Saiu!'
+                    a.style.background = 'green'
+                }
+
+
+
+        </script>
+
+        <section>
+            <div class="ti">
+               
+            </div>
+
+            <div class="ti-resume">
+
+            </div>
+            
+        </section>
+
+
+        <section>
+            <div class="direito">
+
+            </div>
+
+            <div class="direito-resume">
+
+            </div>
+        </section>
+
+
+        <section>
+            <div class="bolsa">
+
+                </div>
+
+            <div class="bolsa-resume">
+            
+                </div>
+
+
+        </section>
+
+  
+    
+</body>
+</html>
