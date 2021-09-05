@@ -86,7 +86,7 @@
 
 }
 
-div#area{
+/*div#area{
     border:1px solid red;
     display: inline-flex;
     width: 100px;
@@ -94,7 +94,7 @@ div#area{
     background: green;
     justify-content:center;
     padding-top: 25px;
-}
+}*/
 
 .ti {
     border: 1px solid wheat;
