@@ -59,6 +59,7 @@
 .menu ul {
     list-style: none;
     padding-right: 90px;
+    
 }
 
 .menu li{
@@ -66,12 +67,17 @@
     margin: 20px;   
     padding: 2px; 
     color: aliceblue;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     transition: 0.3s;
+    
   
 
     
+}
+
+.menu li a{
+    text-decoration: none;
 }
 
 .menu li:hover{
@@ -79,6 +85,7 @@
     text-shadow: white 0 0 10px;
 
 }
+
 
 .main-section {
    

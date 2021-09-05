@@ -1,0 +1,233 @@
+.body{
+    margin: 0;
+    background: rgb(20, 20, 20);
+    font-family: sans-serif;
+}
+
+
+.header {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(45deg,rgb(20, 20, 20), rgb(20, 20, 20), rgb(0, 0, 0));
+    height: 60px;
+
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    margin-left: 30px;
+    padding: 2px;
+    box-shadow: white 0 0 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: 0.3s;
+    
+    
+
+
+}
+
+.logo:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.nome{
+    color: rgb(105, 236, 100);
+    
+    margin-right: 600px;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 100;
+    border-radius: 5%;
+    transition: 0.3s;
+   
+    
+}
+
+.nome:hover{
+    text-shadow: white 0 0 10px;
+    text-shadow: rgb(105, 236, 100) 0 0 20px;
+    cursor: default;
+
+}
+
+.menu ul {
+    list-style: none;
+    padding-right: 90px;
+    
+}
+
+.menu li{
+    display: inline;
+    margin: 20px;   
+    padding: 2px; 
+    color: aliceblue;
+    font-size: 19px;
+    font-weight: bold;
+    transition: 0.3s;
+    
+  
+
+    
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+.menu li:hover{
+    cursor: pointer;
+    text-shadow: white 0 0 10px;
+
+}
+
+.ferramentas{
+   
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: aliceblue;
+    text-shadow: rgb(61, 238, 45) 2px 2px 5px;
+}
+
+.container{
+    margin: 0 auto;
+    border: 1px solid white;
+    max-width: 1200px;
+    display: grid;
+    padding: 0 20px 0 20px;
+    justify-content: center;
+    
+    grid-template-areas: 
+    "sidenav item item"
+    "sidenav item item"
+    "sidenav item item"
+    "sidenav item item"
+    "footer footer footer";
+}
+
+
+.container p{
+    display: none;
+    
+}
+
+.sidenav{
+    width: 300px;
+    height: 850px;
+    background-color: #333;
+    border-radius: 20px;
+    grid-area: "sidenav";
+    grid-row: sidenav;
+    max-width: 400px;
+    min-width: 300px;
+}
+
+i {
+    
+    align-items: center;
+    
+    padding: 3px;
+    
+}
+
+#html:hover{
+    color: rgb(255, 115, 0);
+}
+
+#css:hover{
+    color: rgb(1, 120, 224);
+}
+
+#js:hover{
+    color: rgb(241, 238, 10);
+}
+
+#git:hover{
+    color: rgb(224, 34, 0);
+}
+
+#github:hover{
+    color: rgb(156, 3, 216);
+}
+
+#android:hover{
+    color: rgb(36, 223, 11);
+}
+
+
+.item{
+font-size: 230px;
+grid-area: "item";
+max-width: 300px;
+min-width: 250px;
+margin-left: 50px;
+align-items: center;
+}
+
+.footer{
+    width: auto;
+    height: 300px;
+    background-color: #333;
+    border-radius: 20px;
+    grid-area: "footer";
+    grid-column: footer;
+
+}
+    
+
+
+@media (max-width:830px){
+
+    .item{
+        padding-left: 30px;
+    }
+
+    .sidenav{
+        height: 1700px;
+    }
+
+    .container{
+    
+        grid-template-areas: 
+        "sidenav item"
+        "sidenav item"
+        "sidenav item"
+        "sidenav item"
+        "sidenav item"
+        "sidenav item"
+        "sidenav item"
+        "sidenav item"
+        "footer footer";
+    }
+
+
+}
+
+@media (max-width:610px){
+
+    .sidenav{
+        height: 300px;
+    }
+
+    .container{
+    
+        grid-template-areas: 
+        "sidenav"
+        "item"
+        "item"
+        "item"
+        "item"
+        "item"
+        "item"
+        "item"
+        "footer";
+    }
+
+
+}
