@@ -104,7 +104,12 @@ div#area{
     background-attachment: fixed;
     margin-top: 20px;
     padding-bottom: 20px;
+    transition: 0.1s;
 
+}
+
+.ti:hover{
+    background: url(images/progra.jpg);
 }
 
 
