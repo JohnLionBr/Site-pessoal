@@ -138,6 +138,10 @@ i {
     
 }
 
+i:hover{
+    cursor: pointer;
+}
+
 #html:hover{
     color: rgb(255, 115, 0);
 }

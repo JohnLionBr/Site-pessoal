@@ -107,6 +107,12 @@
     background-attachment: fixed;
 }
 
+.orb{
+    background: url(images/orbe.gif);
+    width: 100%;
+    height: 300px;
+    background-attachment: fixed;
+}
 .space3{
     background: url(images/nebulosa.gif);
     width: 100%;
@@ -114,23 +120,6 @@
     background-attachment: fixed;
 }
 
-.orb{
-    background: url(images/orbe.gif);
-    width: 100%;
-    height: 300px;
-    background-attachment: fixed;
-}
 
-.space4{
-    background: url(images/nebulosa2.gif);
-    width: 100%;
-    height: 300px;
-    background-attachment: fixed;
-}
 
-.wave2{
-    background: url(images/wave2.gif);
-    width: 100%;
-    height: 300px;
-    background-attachment: local;
-}
+
