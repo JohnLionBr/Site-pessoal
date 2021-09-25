@@ -120,6 +120,8 @@ body{
 
 }
 
+
+
 .redes{
   
     margin-left: 270px;
@@ -127,10 +129,19 @@ body{
 
 .descricao{
     
-    margin-right: 80px;
+    margin-left: 10px;
     width: 700px;
+    
 }
 
+.descricao h5{
+    color: white;
+}
+
+.descricao h5:hover{
+    cursor: pointer;
+    text-shadow: 0 0 5px rgb(13, 255, 134);
+}
 .main-section h1{
     color: rgb(0, 0, 0);
     
@@ -181,6 +192,7 @@ body{
 .img-eu:hover{
     transform: scale(1.4);
     box-shadow: rgb(243, 221, 98) 0 0 10px;
+    
     
 }
 

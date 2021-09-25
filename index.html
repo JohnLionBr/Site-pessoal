@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="Parallax.css">
     <title>Parallax</title>
     <link rel="shortcut icon" href="portifolio/favicon.ico" type="image/x-icon">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 
 </head>
 <body class="body">
@@ -27,7 +28,25 @@
 
     <section class="main-section">
         <section class="business">
-        <img class="img-eu" src="images/e45cc943-5c27-4bbc-b656-be93465a49af.jpg" alt="Eu">
+        <img class="img-eu" src="images/tumblr_ozrc73M0YX1ue779no3_400.gif" alt="Eu">
+        <audio id="beep" preload="auto">
+            <source src="audio/Matrix.mp3">
+        </audio>
+        <script>
+            var beepOne = $("#beep") [0] ;
+
+            $(".img-eu")
+            .mouseenter(function() {
+                beepOne.play();
+             });
+
+            $(".img-eu")
+            .mouseout(function() {
+                beepOne.pause();
+            });
+            
+           
+        </script>
         <section class="redes">
             <i class="fab fa-linkedin"></i>
             <i class="fab fa-instagram"></i>
@@ -37,6 +56,7 @@
                 <h1>Programador Front-end</h1>
                 <h2>Olá! Este projeto foi  testar, aprimorar e divulgar minhas habilidades com Html5, Css e Javascript.</h2>
                 <h3>Tecnologias que já utilizei: Html, Css, Javascript, Git e GitHub</h3>
+                <h5>Clique aqui e passe o mouse sobre a imagem</h5>
             </section>
     </section>
 

@@ -128,6 +128,17 @@
     min-width: 300px;
     margin-bottom: 10px;
     margin-top: 10px;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.projeto{
+    font-size: 100px;
+    color: black;
+    text-shadow: 0 0 5px rgb(48, 248, 8);
 }
 
 i {
@@ -162,8 +173,8 @@ i:hover{
     color: rgb(156, 3, 216);
 }
 
-#android:hover{
-    color: rgb(36, 223, 11);
+#react:hover{
+    color: rgb(26, 245, 227);
 }
 
 
