@@ -93,6 +93,7 @@ body{
    
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 530px;
     padding: 0;
@@ -131,7 +132,7 @@ body{
     
     margin-left: 10px;
     width: 700px;
-    
+                                                                                                                                    
 }
 
 .descricao h5{
