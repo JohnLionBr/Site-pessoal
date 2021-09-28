@@ -189,13 +189,38 @@ align-items: center;
 
 .footer{
     width: auto;
-    height: 300px;
-    background-color: #333;
-    border-radius: 20px;
+    height: auto;
+    background: linear-gradient(-45deg, rgb(20, 20, 20), rgb(8, 39, 8), rgb(20, 20, 20));
+    border-radius: 5px;
     grid-area: "footer";
     grid-column: footer;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    color: white;
+
 
 }
+
+.footer h1{
+    text-shadow: rgb(61, 238, 45) 1px 1px 3px;
+}
+
+.footer h2{
+
+font-size: 20px;
+
+margin: 5px;
+}
+
+.footer h2:hover{
+    color: rgb(253, 118, 28);
+    text-shadow: 0 0 3px green;
+
+}
+
+
     
 
 
